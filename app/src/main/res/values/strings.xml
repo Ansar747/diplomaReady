@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QazaqQuest</string>
+    <string name="home">Главная</string>
+    <string name="lessons">Уроки</string>
+    <string name="settings">Настройки</string>
+
+    <string name="AppName">QazaqQuest</string>
+    <string name="todo">TODO</string>
+    <string name="lesson_of_the_day_1">Урок дня: Фрукты</string>
+    <string name="desription_of_the_lesson_1">Расширте словарный запас новыми словами на тему фруктов</string>
+    <string name="lesson_one_time">5 мин</string>
+    <string name="lesson_one_text_practice">Практика делает совершенным</string>
+    <string name="vocabulary">Словарный запас</string>
+    <string name="grammar">Грамматика</string>
+    <string name="testing">Интерактивные тесты</string>
+    <string name="lesson_of_the_day_preview">Урок дня</string>
+    <string name="next">Следующий</string>
+    <string name="fruits_in_kazakh">Фрукты на Казахском</string>
+    <string name="flashcards_button">Карточки</string>
+    <string name="quiz">Квиз</string>
+    <string name="translation_of_word1">яблоко</string>
+    <string name="alma">alma</string>
+    <string name="unit3title">Казахский: глубже в историю и традиции</string>
+    <string name="theme_nauryz">Наурыз: Весенний праздник казахской культуры</string>
+    <string name="theme_kazakh_khandar">Путь к величию: История формирования казахского ханства</string>
+    <string name="theme_sightseeing">Казахстанские достопримечательности и туристические маршруты</string>
+
+
+    <string name="your_article_text">
+    <![CDATA[
+Наурыз – древний исторический праздник, тесно связанный с природными циклами. Его отмечают миллионы людей по всей Азии и даже в Европе. Давайте вспомним историю этого праздника и различные традиции его празднования в Казахстане.
+    ]]>
+</string>
+
+    <string name="your_article_text2">
+    <![CDATA[
+Праздник Наурыз возник в праисторические времена, затерявшись в тумане давних эпох. Его корни уходят глубоко в историю, в моменты, когда первобытные общества, с восхищением наблюдая за природными явлениями, сделали первые шаги к пониманию круговорота времени и жизни. Традиции Наурыза прониклись мудростью веков, позволяя современным поколениям переживать историю и культуру своих предков через праздничные обряды и церемонии, сохраняя живым древний дух праздника.
+    ]]>
+</string>
+    <string name="nauryz_title2">Казахские обычаи и традиции, связанные с Наурызом</string>
+    <string name="kokpar">Игра «Кокпар»</string>
+    <string name="kozhe">блюдо «Наурыз-коже»</string>
+
+
+</resources>

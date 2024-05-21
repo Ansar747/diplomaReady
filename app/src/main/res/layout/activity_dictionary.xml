@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DictionaryActivity">
+
+    <ImageView
+        android:id="@+id/iv_backspace_dict"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_keyboard_backspace_24"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/tv_dict_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="sózdik qory"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_dict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dict_theme"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/rectangle21"
+        app:layout_constraintStart_toStartOf="@+id/tv_dict_theme"
+        app:layout_constraintEnd_toEndOf="@+id/tv_dict_theme"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/tv_themes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_dict"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:text="Темы"/>
+
+    <LinearLayout
+        android:id="@+id/ll_themes_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_themes">
+
+        <LinearLayout
+            android:id="@+id/layoutDict1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/meet_icon"/>
+
+            <TextView
+                android:id="@+id/tvVariant1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Знакомства"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tvValue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="10 слов"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDict2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icons_digits"/>
+
+            <TextView
+                android:id="@+id/tvVariant2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Числа"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tvValue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="50 слов"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_themes_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/ll_themes_1">
+
+        <LinearLayout
+            android:id="@+id/layoutDict3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icons_market"/>
+
+            <TextView
+                android:id="@+id/tvVariant3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Покупки"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvValue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="22 слов">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDict4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icons_school"/>
+
+            <TextView
+                android:id="@+id/tvVariant4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Школа"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvValue4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="60 слов">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_themes_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/ll_themes_2">
+
+        <LinearLayout
+            android:id="@+id/layoutDict5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icons_job"/>
+
+            <TextView
+                android:id="@+id/tvVariant5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Работа"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvValue5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="35 слов">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDict6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icons_family"/>
+
+            <TextView
+                android:id="@+id/tvVariant6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Семья"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvValue6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="20 слов">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_themes_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/ll_themes_3">
+
+        <LinearLayout
+            android:id="@+id/layoutDict7"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icons_time"/>
+
+            <TextView
+                android:id="@+id/tvVariant7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Время"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvValue7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="56 слов">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDict8"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shaped_rounded_containers"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivDict8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/icons_meal"/>
+
+            <TextView
+                android:id="@+id/tvVariant8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ресторан"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvValue8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="40 слов">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
