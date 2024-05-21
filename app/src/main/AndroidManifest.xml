@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BottomNavigationBar"
         tools:targetApi="31">
         <activity
+            android:name=".NumbersActivityDict"
+            android:exported="false" />
+        <activity
             android:name=".MeetActivityDict"
             android:exported="false" />
         <activity
