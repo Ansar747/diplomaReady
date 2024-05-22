@@ -13,6 +13,15 @@
         android:theme="@style/Theme.BottomNavigationBar"
         tools:targetApi="31">
         <activity
+            android:name=".InteractiveTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionMainTest"
+            android:exported="false" />
+        <activity
             android:name=".NumbersActivityDict"
             android:exported="false" />
         <activity

@@ -42,4 +42,9 @@
     <string name="kozhe">блюдо «Наурыз-коже»</string>
 
 
+    <string name="title_correct">Правильно!</string>
+    <string name="title_wrong">Неправильно!</string>
+    <string name="score_message">Your score: %d</string>
+
+
 </resources>

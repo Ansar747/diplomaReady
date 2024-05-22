@@ -7,4 +7,7 @@
     <color name="colorBottomNavSelected">#FF5722</color>
     <color name="colorBottomNavUnselected">#757575</color>
 
+    <color name="greenCorrectColor">#0EAD69</color>
+    <color name="redWrongColor">#FA4169</color>
+    <color name="textVariantsColor">#FF000000</color>
 </resources>
