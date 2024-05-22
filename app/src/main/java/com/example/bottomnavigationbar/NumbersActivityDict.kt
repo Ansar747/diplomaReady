@@ -1,6 +1,7 @@
 package com.example.bottomnavigationbar
 
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +17,10 @@ class NumbersActivityDict : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val imageView = findViewById<ImageView>(R.id.iv_backspace_dict_numbers)
+        imageView.setOnClickListener {
+            finish()
+        }
+
     }
 }

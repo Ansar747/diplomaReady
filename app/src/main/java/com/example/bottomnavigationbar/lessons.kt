@@ -45,6 +45,11 @@ class lessons : Fragment() {
             startActivity(intent)
         }
 
+        view.findViewById<LinearLayout>(R.id.layoutAnswer1)?.setOnClickListener {
+            val intent = Intent(activity, DictionaryActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onCreateView(

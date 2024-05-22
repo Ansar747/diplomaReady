@@ -66,7 +66,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="20sp"
-                android:text="Основные слова:"/>
+                android:text="Основные числа:"/>
 
             <TextView
 
@@ -77,7 +77,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Привет"/>
+                android:text="Ноль "/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Sálem"/>
+                android:text="Nöl"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -96,7 +96,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Здравствуйте"/>
+                android:text="Один "/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Sálemetsiz be"/>
+                android:text="Bir"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Пока"/>
+                android:text="Два "/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Qosh bol"/>
+                android:text="Eki"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -134,7 +134,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Как дела?"/>
+                android:text="Три "/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Qalaısyń?"/>
+                android:text="Üsh"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Хорошо"/>
+                android:text="Четыре "/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -162,7 +162,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Jaqsy"/>
+                android:text="Tört"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -172,7 +172,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Плохо"/>
+                android:text="Пять "/>
             <TextView
                 android:id="@+id/tv_word12_meet"
                 android:layout_width="match_parent"
@@ -182,7 +182,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Jaman"/>
+                android:text="Bes"/>
 
             <TextView
                 android:id="@+id/tv_word13_meet"
@@ -193,7 +193,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Пожалуйста "/>
+                android:text="Шесть  "/>
             <TextView
                 android:id="@+id/tv_word14_meet"
                 android:layout_width="match_parent"
@@ -203,7 +203,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Ótinemin"/>
+                android:text="Alty"/>
 
             <TextView
                 android:id="@+id/tv_word15_meet"
@@ -214,7 +214,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Спасибо "/>
+                android:text="Семь  "/>
             <TextView
                 android:id="@+id/tv_word16meet"
                 android:layout_width="match_parent"
@@ -224,7 +224,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Rahmet"/>
+                android:text="Jeti"/>
             <TextView
                 android:id="@+id/tv_word17_meet"
                 android:layout_width="match_parent"
@@ -234,7 +234,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Извините"/>
+                android:text="Восемь "/>
             <TextView
                 android:id="@+id/tv_word18_meet"
                 android:layout_width="match_parent"
@@ -244,7 +244,7 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Keshirińiz"/>
+                android:text="Segiz"/>
 
             <TextView
                 android:id="@+id/tv_word19_meet"
@@ -255,7 +255,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Меня зовут..."/>
+                android:text="Девять "/>
             <TextView
                 android:id="@+id/tv_word20_meet"
                 android:layout_width="match_parent"
@@ -265,7 +265,515 @@
                 android:textColor="@color/blue"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="Meniń atym..."/>
+                android:text="Togyz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Десять "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Одиннадцать  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On bir"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Двенадцать   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On eki"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Тринадцать"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On üsh"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Четырнадцать   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On tört"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Пятнадцать   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On bes"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Шестнадцать   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On alty"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Семнадцать   "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On jeti"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Восемнадцать"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On segiz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Девятнадцать"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="On togyz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Двадцать"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Jiyrma"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Тридцать"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Otyz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Сорок"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Qyryq"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Пятьдесят "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Elu"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Шестьдесят "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Alpys"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Семьдесят "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Jetpis"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Восемьдесят "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Seksen"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Девяносто "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Toqsan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Сто "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Двести "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Eki jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Триста  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Üsh jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Четыреста  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Tört jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Пятьсот  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Bes jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Шестьсот  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Alty jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Семьсот  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Jeti jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Восемьсот  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Segiz jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Девятьсот  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Togyz jüz"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Тысяча  "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Myñ"/>
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -285,7 +793,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="15dp"
                 android:textSize="15sp"
-                android:text="Привет, как дела?"/>
+                android:text="On"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -29,6 +29,10 @@ class DictionaryActivity : AppCompatActivity() {
             val intent = Intent(this, MeetActivityDict::class.java)
             startActivity(intent)
         }
+        findViewById<LinearLayout>(R.id.layoutDict2)?.setOnClickListener {
+            val intent = Intent(this, NumbersActivityDict::class.java)
+            startActivity(intent)
+        }
 
     }
 }
