@@ -13,7 +13,6 @@ class InteractiveTestActivity : AppCompatActivity() {
         binding = ActivityInteractiveTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Устанавливаем слушатель клика для LinearLayout
         binding.testHistoryOfKz.setOnClickListener {
             val intent = Intent(this@InteractiveTestActivity, QuestionMainTest::class.java)
             startActivity(intent)
