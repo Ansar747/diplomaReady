@@ -57,6 +57,10 @@ class Home : Fragment() {
             val intent = Intent(activity, CultureItem1::class.java)
             startActivity(intent)
         }
+        view.findViewById<LinearLayout>(R.id.grammarLayoutHome)?.setOnClickListener {
+            val intent = Intent(activity, GrammarActivity::class.java)
+            startActivity(intent)
+        }
         view.findViewById<LinearLayout>(R.id.dictionaryID)?.setOnClickListener {
             val intent = Intent(activity, DictionaryActivity::class.java)
             startActivity(intent)

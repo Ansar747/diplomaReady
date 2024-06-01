@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BottomNavigationBar"
         tools:targetApi="31">
         <activity
+            android:name=".GrammarActivity"
+            android:exported="false" />
+        <activity
             android:name=".InteractiveTestActivity"
             android:exported="false" />
         <activity

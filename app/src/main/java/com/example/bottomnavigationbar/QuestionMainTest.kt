@@ -50,7 +50,7 @@ class QuestionMainTest : AppCompatActivity() {
 
         val imageButton = findViewById<ImageButton>(R.id.imageButton)
         imageButton.setOnClickListener {
-            navigateToMainActivity()
+            endTestAndNavigateToMainActivity()
         }
     }
 
@@ -138,13 +138,9 @@ class QuestionMainTest : AppCompatActivity() {
     }
 
     private fun setupNextQuestion() {
-
         cancelCountdownTimer()
-
         resetAnswerStyles()
-
         answerSelected = false
-
 
         if (currentQuestionIndex < totalQuestions - 1) {
             currentQuestionIndex++
@@ -155,7 +151,6 @@ class QuestionMainTest : AppCompatActivity() {
                 startCountdownTimer()
             }
         } else {
-
             showTestResults()
         }
     }
@@ -284,11 +279,19 @@ class QuestionMainTest : AppCompatActivity() {
         startActivity(intent)
     }
 
-    private fun navigateToMainActivity() {
+    private fun endTestAndNavigateToMainActivity() {
+        cancelCountdownTimer()
         val intent = Intent(this, InteractiveTestActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
         startActivity(intent)
+        finish()
     }
 
+    @Deprecated("Deprecated in Java")
+    override fun onBackPressed() {
+        super.onBackPressed()
+        endTestAndNavigateToMainActivity()
+    }
 
     override fun onDestroy() {
         super.onDestroy()
