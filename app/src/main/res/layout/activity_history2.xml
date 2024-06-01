@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History2Activity">
+
+    <ImageView
+        android:id="@+id/iv_backspace_history2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_keyboard_backspace_24"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/tv_history_theme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Рождение великой идеи"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_history2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_history_theme2"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/rectangle21"
+        app:layout_constraintStart_toStartOf="@+id/tv_history_theme2"
+        app:layout_constraintEnd_toEndOf="@+id/tv_history_theme2"
+        android:contentDescription="@string/todo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_history2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/zovstepeiphoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="19dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="11dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rozhstepi"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <TextView
+                android:id="@+id/tv_zov1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:text="Глава 2"/>
+
+            <TextView
+                android:id="@+id/tv_zov2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp"
+                android:text="@string/rozhdenie1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/divider"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/tv_zov3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_bolditalic"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp"
+                android:text="Политическая ситуация в Центральной Азии"/>
+
+            <TextView
+                android:id="@+id/tv_zov4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp"
+                android:text="@string/rozhdenie2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/divider"
+                android:contentDescription="@string/todo" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/rozhdva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="19dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="11dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rozh2"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <TextView
+                android:id="@+id/tv_zov5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_bolditalic"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_marginEnd="10dp"
+                android:text="Керей и Жанибек: Лидеры нового времени"/>
+
+            <TextView
+                android:id="@+id/tv_zov6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp"
+                android:text="@string/rozh3"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
