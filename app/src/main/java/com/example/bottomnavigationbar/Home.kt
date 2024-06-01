@@ -69,6 +69,10 @@ class Home : Fragment() {
             val intent = Intent(activity, InteractiveTestActivity::class.java)
             startActivity(intent)
         }
+        view.findViewById<LinearLayout>(R.id.historyLayout)?.setOnClickListener {
+            val intent = Intent(activity, HistoryActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onCreateView(

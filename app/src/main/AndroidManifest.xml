@@ -13,6 +13,15 @@
         android:theme="@style/Theme.BottomNavigationBar"
         tools:targetApi="31">
         <activity
+            android:name=".SchoolActivityDict"
+            android:exported="false" />
+        <activity
+            android:name=".ShopActivityDict"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".GrammarActivity"
             android:exported="false" />
         <activity

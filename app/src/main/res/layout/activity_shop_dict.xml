@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivityDict">
+
+    <ImageView
+        android:id="@+id/iv_backspace_dict_shop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_keyboard_backspace_24"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/tv_dict_theme_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Покупки"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_dict_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dict_theme_shop"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/rectangle21"
+        app:layout_constraintStart_toStartOf="@+id/tv_dict_theme_shop"
+        app:layout_constraintEnd_toEndOf="@+id/tv_dict_theme_shop"
+        android:contentDescription="@string/todo" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_dict_shop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:text="Основные слова:"/>
+
+            <TextView
+                android:id="@+id/tv_word1_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Магазин"/>
+            <TextView
+                android:id="@+id/tv_word2_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Dükеn"/>
+
+            <TextView
+                android:id="@+id/tv_word3_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Товар "/>
+            <TextView
+                android:id="@+id/tv_word4_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Tauar"/>
+
+            <TextView
+                android:id="@+id/tv_word5_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Продавец"/>
+            <TextView
+                android:id="@+id/tv_word6_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Satuşı"/>
+
+            <TextView
+                android:id="@+id/tv_word7_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Покупатель "/>
+            <TextView
+                android:id="@+id/tv_word8_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Satyp aluşı"/>
+
+            <TextView
+                android:id="@+id/tv_word9_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Цена "/>
+            <TextView
+                android:id="@+id/tv_word10_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Bağa"/>
+
+            <TextView
+                android:id="@+id/tv_word11_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Скидка "/>
+            <TextView
+                android:id="@+id/tv_word12_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Jeñildik"/>
+
+            <TextView
+                android:id="@+id/tv_word13_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Касса  "/>
+            <TextView
+                android:id="@+id/tv_word14_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Kassa"/>
+
+            <TextView
+                android:id="@+id/tv_word15_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Чек  "/>
+            <TextView
+                android:id="@+id/tv_word16meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Şek"/>
+            <TextView
+                android:id="@+id/tv_word17_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Корзина "/>
+            <TextView
+                android:id="@+id/tv_word18_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Sebet"/>
+
+            <TextView
+                android:id="@+id/tv_word19_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Пакет"/>
+            <TextView
+                android:id="@+id/tv_word20_meet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Paket"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:text="Примеры предложений:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Где находится магазин?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Düken qajer de ornalasqan?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Мне нужен продавец"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Mağan satwşı kerek"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Сколько стоит этот товар?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Bul tauar qanşa turady?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Есть ли скидки на этот товар?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Bul tauarğa jeñildik bar ma?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Где находится касса?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Kassa qajer de ornalasqan?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Мне нужен чек"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Mağan şek kerek"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Можно пакет? "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Paket beriwge bola ma?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Сколько это весит?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Bul qanşa salmaq tüsedi?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:text="Дополнительные фразы:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="У вас есть корзина?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Sizde sebet bar ma?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Сколько стоит один литр молока?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Bir litr süt qanşa turady?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Вы принимаете карты?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Sizder kartamen qabıldaysızdar ma?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Это слишком дорого"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Bul öte qımbat"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Есть ли более дешевые варианты?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Arzandaýraq varianttar bar ma?"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="Я хочу вернуть этот товар"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Men bul tauardı qaytarğym keledi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="У вас есть еще такой товар?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/blue"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Sizderde osınday tauar tağı bar ma?"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
