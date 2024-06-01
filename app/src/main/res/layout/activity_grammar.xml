@@ -46,28 +46,166 @@
         app:layout_constraintEnd_toEndOf="@+id/tv_grammar_theme"
         android:contentDescription="@string/todo" />
 
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/latinicaID"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="19dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginEnd="11dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:src="@drawable/latinica"
-        app:shapeAppearanceOverlay="@style/roundimageview"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_grammar"/>
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Алфавит"
-        android:textSize="25sp"
-        app:layout_constraintTop_toBottomOf="@+id/latinicaID"
-        android:textColor="@color/black"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/montserrat_semibold"/>
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_grammar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAlfavit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Алфавит"
+                android:textSize="25sp"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_grammar"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_semibold"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/latinicaID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="19dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="11dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/latinica"
+                app:shapeAppearanceOverlay="@style/roundimageview"
+                app:layout_constraintTop_toBottomOf="@+id/tvAlfavit"/>
+
+            <TextView
+                android:id="@+id/tvRazdely"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Разделы"
+                android:textSize="25sp"
+                app:layout_constraintTop_toBottomOf="@+id/latinicaID"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_semibold"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                tools:ignore="ScrollViewCount"
+                app:layout_constraintTop_toBottomOf="@+id/tvRazdely">
+
+                <LinearLayout
+                    android:id="@+id/horizontal_scrolling_practice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="15dp"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/tv3">
+
+
+                    <LinearLayout
+                        android:id="@+id/dictionaryID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/vocab"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fonetica"
+                            app:shapeAppearanceOverlay="@style/roundimageview"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Фонетика"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:textSize="16sp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/grammarLayoutHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="13dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/grammar"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/zatesim"
+                            app:shapeAppearanceOverlay="@style/roundimageview"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Существительные"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:textSize="16sp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="10dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/interactive_testID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="13dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/testing"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/glagoly"
+                            app:shapeAppearanceOverlay="@style/roundimageview"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Глаголы"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:textSize="16sp"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="10dp"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
